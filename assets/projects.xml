@@ -1,0 +1,258 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<tsResponse xmlns="http://tableau.com/api" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://tableau.com/api https://help.tableau.com/samples/en-us/rest_api/ts-api_3_17.xsd">
+	<pagination pageNumber="1" pageSize="100" totalAvailable="84"/>
+	<projects>
+		<project id="dd290932-cd1a-11e8-b0b0-1f0ed16bcc61" name="Default" description="The default project that was automatically created by Tableau." createdAt="2018-10-11T05:59:33Z" updatedAt="2019-05-29T03:38:54Z" contentPermissions="ManagedByOwner">
+			<owner id="12baf4c5-4009-4d60-899e-5f1997941c40"/>
+		</project>
+		<project id="315b24e3-3f75-4f45-b6ad-903dec5062f9" name="Tableau Samples" description="A set of sample workbooks provided by Tableau Software." createdAt="2018-10-11T06:16:40Z" updatedAt="2019-05-29T03:38:54Z" contentPermissions="ManagedByOwner">
+			<owner id="12baf4c5-4009-4d60-899e-5f1997941c40"/>
+		</project>
+		<project id="c287f2f6-7845-4d96-8e73-190eb2e8a2e7" name="Validation" description="" createdAt="2018-11-06T05:38:51Z" updatedAt="2019-05-29T03:37:35Z" contentPermissions="LockedToProject">
+			<owner id="12baf4c5-4009-4d60-899e-5f1997941c40"/>
+		</project>
+		<project id="98f1f8f4-3dba-46b6-8cec-3587a26f0eab" name="RAFT - Raw Data" description="" parentProjectId="c287f2f6-7845-4d96-8e73-190eb2e8a2e7" controllingPermissionsProjectId="c287f2f6-7845-4d96-8e73-190eb2e8a2e7" createdAt="2018-12-11T23:53:19Z" updatedAt="2019-05-29T03:39:33Z" contentPermissions="LockedToProject">
+			<owner id="12baf4c5-4009-4d60-899e-5f1997941c40"/>
+		</project>
+		<project id="89e781e7-5c60-4ba0-a0b6-83aae84d404d" name="1. Head Office Templates" description="" createdAt="2019-03-08T03:25:11Z" updatedAt="2020-08-25T05:25:38Z" contentPermissions="LockedToProject">
+			<owner id="12baf4c5-4009-4d60-899e-5f1997941c40"/>
+		</project>
+		<project id="cb45572d-9a90-469f-b3c3-2d43a79fe3e1" name="2. Head Office User Reports" description="" createdAt="2019-05-17T00:18:55Z" updatedAt="2020-08-25T05:25:28Z" contentPermissions="ManagedByOwner">
+			<owner id="12baf4c5-4009-4d60-899e-5f1997941c40"/>
+		</project>
+		<project id="2a7c885b-1390-4256-8bfc-60605ee1756b" name="Angela Luong" description="*Angela's Reports*" parentProjectId="cb45572d-9a90-469f-b3c3-2d43a79fe3e1" createdAt="2019-05-31T00:29:39Z" updatedAt="2019-08-06T04:26:47Z" contentPermissions="ManagedByOwner">
+			<owner id="6edaace7-38f9-4451-a801-725b4255517e"/>
+		</project>
+		<project id="6d30f8cf-7804-4e2e-86a9-b7ff0eee8d37" name="Ben Miller" description="*Ben Miller's Reports*" parentProjectId="cb45572d-9a90-469f-b3c3-2d43a79fe3e1" createdAt="2019-05-31T00:56:45Z" updatedAt="2019-07-15T03:34:38Z" contentPermissions="ManagedByOwner">
+			<owner id="51f83a28-9789-4798-9c46-cefa9446024d"/>
+		</project>
+		<project id="1f944523-35a6-4cde-8ecb-6bb3bc2f60dc" name="Claudine Nakad" description="*Claudine's Report*" parentProjectId="cb45572d-9a90-469f-b3c3-2d43a79fe3e1" createdAt="2019-05-31T01:23:20Z" updatedAt="2019-05-31T01:23:20Z" contentPermissions="ManagedByOwner">
+			<owner id="51f83a28-9789-4798-9c46-cefa9446024d"/>
+		</project>
+		<project id="1691ac64-26ed-4423-a874-e928afa2f9a4" name="Gary Lee" description="*Gary's Reports*" parentProjectId="cb45572d-9a90-469f-b3c3-2d43a79fe3e1" createdAt="2019-05-31T01:24:09Z" updatedAt="2019-05-31T01:24:09Z" contentPermissions="ManagedByOwner">
+			<owner id="51f83a28-9789-4798-9c46-cefa9446024d"/>
+		</project>
+		<project id="8e0b1f07-8c39-4c35-8c6b-59b072fdb394" name="Jasmine Lee" description="*Jasmine's Reports*" parentProjectId="cb45572d-9a90-469f-b3c3-2d43a79fe3e1" createdAt="2019-05-31T01:25:03Z" updatedAt="2019-05-31T01:25:03Z" contentPermissions="ManagedByOwner">
+			<owner id="51f83a28-9789-4798-9c46-cefa9446024d"/>
+		</project>
+		<project id="cf6af87e-fe9c-4691-89e6-1a41fb8ec7ab" name="Jenny White" description="*Jenny's Reports*" parentProjectId="cb45572d-9a90-469f-b3c3-2d43a79fe3e1" createdAt="2019-05-31T01:25:15Z" updatedAt="2019-05-31T01:25:15Z" contentPermissions="ManagedByOwner">
+			<owner id="51f83a28-9789-4798-9c46-cefa9446024d"/>
+		</project>
+		<project id="8b365bd7-7f34-45c2-86ab-7cc6b40d250f" name="Kevin Lim" description="*Kevin's Reports*" parentProjectId="cb45572d-9a90-469f-b3c3-2d43a79fe3e1" createdAt="2019-05-31T01:25:29Z" updatedAt="2019-05-31T01:25:29Z" contentPermissions="ManagedByOwner">
+			<owner id="51f83a28-9789-4798-9c46-cefa9446024d"/>
+		</project>
+		<project id="af7ab2a6-95dc-4dd4-8ad8-60f95c815453" name="Erilyn Charalambous" description="*Erilyn's Reports*" parentProjectId="cb45572d-9a90-469f-b3c3-2d43a79fe3e1" createdAt="2019-05-31T01:26:26Z" updatedAt="2019-05-31T01:26:26Z" contentPermissions="ManagedByOwner">
+			<owner id="51f83a28-9789-4798-9c46-cefa9446024d"/>
+		</project>
+		<project id="367ffe27-4289-47b8-813c-1eefd0d7bc6e" name="Peter Harris" description="*Peter Harris's Reports*" parentProjectId="cb45572d-9a90-469f-b3c3-2d43a79fe3e1" createdAt="2019-05-31T01:26:50Z" updatedAt="2019-07-16T02:33:11Z" contentPermissions="ManagedByOwner">
+			<owner id="51f83a28-9789-4798-9c46-cefa9446024d"/>
+		</project>
+		<project id="103a9462-cf25-46fd-9393-f251d3142942" name="Peter Braithwaite" description="*Peter's Reports*" parentProjectId="cb45572d-9a90-469f-b3c3-2d43a79fe3e1" createdAt="2019-05-31T01:27:27Z" updatedAt="2019-05-31T01:28:10Z" contentPermissions="ManagedByOwner">
+			<owner id="51f83a28-9789-4798-9c46-cefa9446024d"/>
+		</project>
+		<project id="3e6cee18-240d-43f1-9677-a4d7eaa590fe" name="Russell Goldberg" description="*Russell's Reports*" parentProjectId="cb45572d-9a90-469f-b3c3-2d43a79fe3e1" createdAt="2019-05-31T01:29:24Z" updatedAt="2019-05-31T01:29:24Z" contentPermissions="ManagedByOwner">
+			<owner id="51f83a28-9789-4798-9c46-cefa9446024d"/>
+		</project>
+		<project id="fb972edf-1432-42bd-8091-71ed272e3f39" name="Soloman Iau" description="*Soloman's Reports*" parentProjectId="cb45572d-9a90-469f-b3c3-2d43a79fe3e1" createdAt="2019-05-31T01:29:53Z" updatedAt="2019-05-31T01:29:53Z" contentPermissions="ManagedByOwner">
+			<owner id="51f83a28-9789-4798-9c46-cefa9446024d"/>
+		</project>
+		<project id="f514ff24-8f00-431c-b4cf-f1f034df3aa9" name="Brian Zhong" description="*Brian's Reports*" parentProjectId="cb45572d-9a90-469f-b3c3-2d43a79fe3e1" createdAt="2019-05-31T01:39:13Z" updatedAt="2019-05-31T01:39:13Z" contentPermissions="ManagedByOwner">
+			<owner id="51f83a28-9789-4798-9c46-cefa9446024d"/>
+		</project>
+		<project id="9aca80a5-b41e-4caa-bb4d-8c3337fb8a84" name="Simon Baltsas" description="*Simon's Reports*" parentProjectId="cb45572d-9a90-469f-b3c3-2d43a79fe3e1" createdAt="2019-05-31T02:42:10Z" updatedAt="2019-05-31T02:42:10Z" contentPermissions="ManagedByOwner">
+			<owner id="51f83a28-9789-4798-9c46-cefa9446024d"/>
+		</project>
+		<project id="cab2c3cf-927e-48bf-afde-442bd346888a" name="John De Bellis" description="*John's Reports*" parentProjectId="cb45572d-9a90-469f-b3c3-2d43a79fe3e1" createdAt="2019-05-31T05:15:42Z" updatedAt="2019-05-31T05:15:42Z" contentPermissions="ManagedByOwner">
+			<owner id="51f83a28-9789-4798-9c46-cefa9446024d"/>
+		</project>
+		<project id="8ab6ee9e-fd2b-4a8f-b0b8-504d1363b17e" name="Kathy Yin" description="*Kathy's Reports*" parentProjectId="cb45572d-9a90-469f-b3c3-2d43a79fe3e1" createdAt="2019-06-07T01:25:14Z" updatedAt="2019-08-06T04:27:39Z" contentPermissions="ManagedByOwner">
+			<owner id="51f83a28-9789-4798-9c46-cefa9446024d"/>
+		</project>
+		<project id="b5e5bba4-1fa8-48e0-b414-db04d654a718" name="Michelle Simmonds" description="*Michelle's Reports*" parentProjectId="cb45572d-9a90-469f-b3c3-2d43a79fe3e1" createdAt="2019-06-07T01:25:37Z" updatedAt="2019-06-07T01:25:37Z" contentPermissions="ManagedByOwner">
+			<owner id="51f83a28-9789-4798-9c46-cefa9446024d"/>
+		</project>
+		<project id="b9347fb9-7336-45cf-a5d1-ba1b8dc38e5d" name="Bianca Nursoo" description="*Bianca's Reports*" parentProjectId="cb45572d-9a90-469f-b3c3-2d43a79fe3e1" createdAt="2019-06-07T01:25:55Z" updatedAt="2019-06-07T01:25:55Z" contentPermissions="ManagedByOwner">
+			<owner id="51f83a28-9789-4798-9c46-cefa9446024d"/>
+		</project>
+		<project id="81960eb8-dd57-458a-b2fe-521afe6b7dbf" name="Sean Ng" description="*Sean's Reports*" parentProjectId="cb45572d-9a90-469f-b3c3-2d43a79fe3e1" createdAt="2019-06-07T01:26:15Z" updatedAt="2019-06-07T01:26:15Z" contentPermissions="ManagedByOwner">
+			<owner id="51f83a28-9789-4798-9c46-cefa9446024d"/>
+		</project>
+		<project id="43c77cf2-f991-4a46-82c1-bdbd875452d3" name="Ken Lau" description="*Ken's Reports*" parentProjectId="cb45572d-9a90-469f-b3c3-2d43a79fe3e1" createdAt="2019-06-07T01:27:20Z" updatedAt="2019-06-07T01:27:20Z" contentPermissions="ManagedByOwner">
+			<owner id="51f83a28-9789-4798-9c46-cefa9446024d"/>
+		</project>
+		<project id="fc64c4e1-6dc9-4ed7-913f-96847fea8498" name="Jason Hong" description="*Jason's Reports*" parentProjectId="cb45572d-9a90-469f-b3c3-2d43a79fe3e1" createdAt="2019-06-26T06:18:23Z" updatedAt="2019-06-26T06:18:23Z" contentPermissions="ManagedByOwner">
+			<owner id="51f83a28-9789-4798-9c46-cefa9446024d"/>
+		</project>
+		<project id="d9acc643-d4cc-4abd-b112-750cb406ad00" name="Tristan Gallagher" description="*Tristan's Reports*" parentProjectId="cb45572d-9a90-469f-b3c3-2d43a79fe3e1" createdAt="2019-07-01T04:32:26Z" updatedAt="2019-07-01T04:32:26Z" contentPermissions="ManagedByOwner">
+			<owner id="51f83a28-9789-4798-9c46-cefa9446024d"/>
+		</project>
+		<project id="c49c57b1-ffa3-4aeb-b847-1a6ea98838f4" name="Ben Nursoo" description="*Ben Nursoo's Reports*" parentProjectId="cb45572d-9a90-469f-b3c3-2d43a79fe3e1" createdAt="2019-07-15T03:28:56Z" updatedAt="2019-07-15T03:35:06Z" contentPermissions="ManagedByOwner">
+			<owner id="0e5842a9-f191-4bc1-8217-b2c5e53b716c"/>
+		</project>
+		<project id="fc34f4d0-e287-4017-b588-b95b87c89db9" name="Lionel Lee" description="*Lionel's Reports*" parentProjectId="cb45572d-9a90-469f-b3c3-2d43a79fe3e1" createdAt="2019-07-16T02:28:03Z" updatedAt="2019-08-06T04:28:46Z" contentPermissions="ManagedByOwner">
+			<owner id="51f83a28-9789-4798-9c46-cefa9446024d"/>
+		</project>
+		<project id="58d055b2-f0f4-4abf-bafb-917365949089" name="Rebecca Main" description="*Rebecca's Reports*" parentProjectId="cb45572d-9a90-469f-b3c3-2d43a79fe3e1" createdAt="2019-08-05T07:06:37Z" updatedAt="2019-08-06T04:25:44Z" contentPermissions="ManagedByOwner">
+			<owner id="51f83a28-9789-4798-9c46-cefa9446024d"/>
+		</project>
+		<project id="618f7fc5-ccb8-499b-83e2-631695deef7e" name="Luis Lopez" description="*Luis' Reports*" parentProjectId="cb45572d-9a90-469f-b3c3-2d43a79fe3e1" createdAt="2019-08-07T23:35:01Z" updatedAt="2019-08-07T23:35:01Z" contentPermissions="ManagedByOwner">
+			<owner id="51f83a28-9789-4798-9c46-cefa9446024d"/>
+		</project>
+		<project id="4b3924b2-7eee-4eaa-acff-ccfee3f2ad29" name="Chris Murphy" description="*Chris Murphy's Reports*" parentProjectId="cb45572d-9a90-469f-b3c3-2d43a79fe3e1" createdAt="2019-11-13T06:02:25Z" updatedAt="2019-11-13T06:02:25Z" contentPermissions="ManagedByOwner">
+			<owner id="51f83a28-9789-4798-9c46-cefa9446024d"/>
+		</project>
+		<project id="ff05e532-c9f5-4a72-8c59-63260f0520aa" name="David Beck" description="*David Beck's Reports*" parentProjectId="cb45572d-9a90-469f-b3c3-2d43a79fe3e1" createdAt="2020-01-14T04:13:31Z" updatedAt="2020-01-14T04:13:31Z" contentPermissions="ManagedByOwner">
+			<owner id="51f83a28-9789-4798-9c46-cefa9446024d"/>
+		</project>
+		<project id="2c9b9167-f91c-4687-a71b-2cd4bf8c0935" name="3. Store Reports" description="*Reports for Store Managers (xx@binglee.com.au). These provide high level insight into store performance.*" createdAt="2020-08-05T01:26:50Z" updatedAt="2021-02-15T23:26:39Z" contentPermissions="ManagedByOwner">
+			<owner id="51f83a28-9789-4798-9c46-cefa9446024d"/>
+		</project>
+		<project id="f4b42b36-12aa-4815-bb57-f69b4cd2a1a2" name="Karlee Inglis" description="*Karlee's Reports*" parentProjectId="cb45572d-9a90-469f-b3c3-2d43a79fe3e1" createdAt="2020-08-25T06:24:22Z" updatedAt="2020-08-25T06:25:19Z" contentPermissions="ManagedByOwner">
+			<owner id="51f83a28-9789-4798-9c46-cefa9446024d"/>
+		</project>
+		<project id="04e23bf3-94ee-4796-9d40-9450ff7fc784" name="Anita Savoldi" description="*Anita's Reports*" parentProjectId="cb45572d-9a90-469f-b3c3-2d43a79fe3e1" createdAt="2020-09-08T23:55:36Z" updatedAt="2020-09-08T23:55:36Z" contentPermissions="ManagedByOwner">
+			<owner id="51f83a28-9789-4798-9c46-cefa9446024d"/>
+		</project>
+		<project id="be1f721a-0f0a-443e-a41a-0caaa5c48d2d" name="NS Temp Reports" description="" parentProjectId="89e781e7-5c60-4ba0-a0b6-83aae84d404d" controllingPermissionsProjectId="89e781e7-5c60-4ba0-a0b6-83aae84d404d" createdAt="2020-12-09T22:57:25Z" updatedAt="2022-03-08T02:16:48Z" contentPermissions="LockedToProject">
+			<owner id="042b37ba-c1be-4727-a844-2e787c89e3b6"/>
+		</project>
+		<project id="dd8c9a79-228f-4bc9-8451-42e3036cc4c3" name="Lily Awati" description="*Lily's Reports*" parentProjectId="cb45572d-9a90-469f-b3c3-2d43a79fe3e1" createdAt="2020-12-11T04:29:35Z" updatedAt="2020-12-11T04:29:35Z" contentPermissions="ManagedByOwner">
+			<owner id="51f83a28-9789-4798-9c46-cefa9446024d"/>
+		</project>
+		<project id="d1be9471-4c9b-4fa8-bf2b-da89ea380234" name="NS Reports" description="" parentProjectId="2c9b9167-f91c-4687-a71b-2cd4bf8c0935" createdAt="2020-12-22T05:21:41Z" updatedAt="2020-12-22T05:21:41Z" contentPermissions="ManagedByOwner">
+			<owner id="51f83a28-9789-4798-9c46-cefa9446024d"/>
+		</project>
+		<project id="f5ae9f0a-2102-47e1-ae66-4a0ff51303e6" name="Evan Tietie" description="*Evans' Reports*" parentProjectId="cb45572d-9a90-469f-b3c3-2d43a79fe3e1" createdAt="2021-01-06T22:03:24Z" updatedAt="2021-01-06T22:03:24Z" contentPermissions="ManagedByOwner">
+			<owner id="51f83a28-9789-4798-9c46-cefa9446024d"/>
+		</project>
+		<project id="9290d274-acb3-41e7-8b94-0957626429c1" name="4. Specific Manager Reports" description="*In depth reports for advanced managers. Reports are tailored on a &quot;per-request&quot; basis*" createdAt="2021-02-15T23:45:26Z" updatedAt="2021-02-15T23:45:26Z" contentPermissions="ManagedByOwner">
+			<owner id="51f83a28-9789-4798-9c46-cefa9446024d"/>
+		</project>
+		<project id="57d215c5-a376-4395-bae0-8e0896870476" name="My Phuong Nguyen" description="*My Phuong's Reports*" parentProjectId="cb45572d-9a90-469f-b3c3-2d43a79fe3e1" createdAt="2021-02-16T05:56:41Z" updatedAt="2021-02-16T05:56:41Z" contentPermissions="ManagedByOwner">
+			<owner id="51f83a28-9789-4798-9c46-cefa9446024d"/>
+		</project>
+		<project id="e23da075-3c70-4d79-9bb5-8dd1b42618c2" name="Merged Data" description="" parentProjectId="103a9462-cf25-46fd-9393-f251d3142942" createdAt="2021-03-15T04:38:17Z" updatedAt="2021-03-15T04:38:17Z" contentPermissions="ManagedByOwner">
+			<owner id="a4c66371-ff68-48f1-a570-a911b311a1c0"/>
+		</project>
+		<project id="5bd89e60-ae91-4328-8d4d-7f1aea2e77e3" name="Brian" description="" parentProjectId="103a9462-cf25-46fd-9393-f251d3142942" createdAt="2021-03-15T04:39:25Z" updatedAt="2021-03-15T04:39:25Z" contentPermissions="ManagedByOwner">
+			<owner id="a4c66371-ff68-48f1-a570-a911b311a1c0"/>
+		</project>
+		<project id="120915d9-1b1f-47db-88b8-e8a3517d0ffd" name="BFC Named Folder" description="Reports built for Chris" parentProjectId="f514ff24-8f00-431c-b4cf-f1f034df3aa9" createdAt="2021-04-19T00:08:06Z" updatedAt="2021-04-19T00:08:06Z" contentPermissions="ManagedByOwner">
+			<owner id="b34ba3c1-aa8a-4563-a0e7-b71a931bfdd6"/>
+		</project>
+		<project id="98880154-2b45-4252-afda-1e36aa3b5981" name="BZ Named Folder" description="reports and dashboard built for store managers" parentProjectId="f514ff24-8f00-431c-b4cf-f1f034df3aa9" createdAt="2021-04-19T00:16:24Z" updatedAt="2021-04-19T00:16:24Z" contentPermissions="ManagedByOwner">
+			<owner id="b34ba3c1-aa8a-4563-a0e7-b71a931bfdd6"/>
+		</project>
+		<project id="a002210e-5654-4c07-ae38-efea0a841caa" name="Interactive Dashboard" description="dashboards build for various users and myself" parentProjectId="f514ff24-8f00-431c-b4cf-f1f034df3aa9" createdAt="2021-04-19T10:35:57Z" updatedAt="2021-04-19T10:45:05Z" contentPermissions="ManagedByOwner">
+			<owner id="b34ba3c1-aa8a-4563-a0e7-b71a931bfdd6"/>
+		</project>
+		<project id="abda04b2-cddf-4399-8df1-f30b77143f35" name="Pauline Duong" description="*Pauline Duong's Reports*" parentProjectId="cb45572d-9a90-469f-b3c3-2d43a79fe3e1" createdAt="2021-06-16T23:32:29Z" updatedAt="2021-06-16T23:32:29Z" contentPermissions="ManagedByOwner">
+			<owner id="51f83a28-9789-4798-9c46-cefa9446024d"/>
+		</project>
+		<project id="3259731e-c285-4c06-8dee-29f33fcb3701" name="Yen Nhan" description="*Yen Nhan's Reports*" parentProjectId="cb45572d-9a90-469f-b3c3-2d43a79fe3e1" createdAt="2021-06-16T23:42:12Z" updatedAt="2021-06-16T23:42:12Z" contentPermissions="ManagedByOwner">
+			<owner id="51f83a28-9789-4798-9c46-cefa9446024d"/>
+		</project>
+		<project id="047bae70-fd36-4921-85d2-9a902fa4c76b" name="Reports Seldom Used" description="" parentProjectId="4b3924b2-7eee-4eaa-acff-ccfee3f2ad29" createdAt="2021-08-12T05:49:20Z" updatedAt="2021-08-12T05:49:20Z" contentPermissions="ManagedByOwner">
+			<owner id="b34ba3c1-aa8a-4563-a0e7-b71a931bfdd6"/>
+		</project>
+		<project id="a4ec8bf1-75f8-485a-b162-bfef6ca811fa" name="5. Merchandise Reports" description="Merchandise Reports. This is for the Buying team.&#xa;&#xa;Requested by Ravi 25/08/21" createdAt="2021-08-25T00:32:09Z" updatedAt="2021-09-14T02:13:50Z" contentPermissions="LockedToProject">
+			<owner id="51f83a28-9789-4798-9c46-cefa9446024d"/>
+		</project>
+		<project id="d8018a12-ddd2-4d49-b6cf-39f2c6ec4d26" name="Marcio Tiete" description="*Marcio Tiete's Reports*" parentProjectId="cb45572d-9a90-469f-b3c3-2d43a79fe3e1" createdAt="2021-09-13T05:43:12Z" updatedAt="2021-09-13T05:43:12Z" contentPermissions="ManagedByOwner">
+			<owner id="51f83a28-9789-4798-9c46-cefa9446024d"/>
+		</project>
+		<project id="4fc2c658-4597-4ad9-9284-3b2fdfd46d6b" name="6. Warehouse Reports" description="Warehousing related reports for warehouseing staff only" createdAt="2021-09-17T01:21:36Z" updatedAt="2021-09-17T01:21:36Z" contentPermissions="ManagedByOwner">
+			<owner id="51f83a28-9789-4798-9c46-cefa9446024d"/>
+		</project>
+		<project id="a5022216-cc11-4be7-8ac9-e062067ae96e" name="Joshua Lee" description="*Joshua's Reports*" parentProjectId="cb45572d-9a90-469f-b3c3-2d43a79fe3e1" createdAt="2021-11-05T00:39:36Z" updatedAt="2021-11-05T00:39:36Z" contentPermissions="ManagedByOwner">
+			<owner id="51f83a28-9789-4798-9c46-cefa9446024d"/>
+		</project>
+		<project id="a6be62ac-c8d0-4434-af42-8f081b4cfeb0" name="Lina Isaac" description="*Lina's Isaac's Reports*" parentProjectId="cb45572d-9a90-469f-b3c3-2d43a79fe3e1" createdAt="2021-11-05T00:42:53Z" updatedAt="2021-11-05T00:42:53Z" contentPermissions="ManagedByOwner">
+			<owner id="51f83a28-9789-4798-9c46-cefa9446024d"/>
+		</project>
+		<project id="a350d791-1ba8-4179-89df-dad79be9c943" name="Auto Gen Report Folder" description="" parentProjectId="f514ff24-8f00-431c-b4cf-f1f034df3aa9" createdAt="2021-11-09T10:16:17Z" updatedAt="2021-11-09T10:16:17Z" contentPermissions="ManagedByOwner">
+			<owner id="b34ba3c1-aa8a-4563-a0e7-b71a931bfdd6"/>
+		</project>
+		<project id="fa888543-9172-4e0c-ab19-d332e07853cc" name="other frequently used new reports" description="m_sales_profit &amp; m_sales_person_indicator are used as primary database for scanned sales." parentProjectId="f514ff24-8f00-431c-b4cf-f1f034df3aa9" createdAt="2021-12-10T03:11:42Z" updatedAt="2023-05-22T03:54:22Z" contentPermissions="ManagedByOwner">
+			<owner id="b34ba3c1-aa8a-4563-a0e7-b71a931bfdd6"/>
+		</project>
+		<project id="7b1be5fa-ad83-4885-a38e-c0e45fb481a1" name="Leon Zheng" description="*Leon Zheng's Reports*" parentProjectId="cb45572d-9a90-469f-b3c3-2d43a79fe3e1" createdAt="2022-01-04T00:41:29Z" updatedAt="2022-01-04T00:41:29Z" contentPermissions="ManagedByOwner">
+			<owner id="51f83a28-9789-4798-9c46-cefa9446024d"/>
+		</project>
+		<project id="c99cb1cc-9105-41ee-802c-f6c166a8db57" name="Regina Mendoza" description="*Regina Mendoza's Reports*" parentProjectId="cb45572d-9a90-469f-b3c3-2d43a79fe3e1" createdAt="2022-01-10T23:54:35Z" updatedAt="2022-01-10T23:54:35Z" contentPermissions="ManagedByOwner">
+			<owner id="51f83a28-9789-4798-9c46-cefa9446024d"/>
+		</project>
+		<project id="5e7078bd-269f-4cab-b7b4-552038df5e88" name="Natasha Fornasier" description="*Natasha Fornasier's reports*" parentProjectId="cb45572d-9a90-469f-b3c3-2d43a79fe3e1" createdAt="2022-01-14T00:57:59Z" updatedAt="2022-01-14T00:57:59Z" contentPermissions="ManagedByOwner">
+			<owner id="51f83a28-9789-4798-9c46-cefa9446024d"/>
+		</project>
+		<project id="dc207d07-5ee5-4c01-8f50-b35cd05a70bf" name="Scott Babbage" description="*Scott's Reports*" parentProjectId="cb45572d-9a90-469f-b3c3-2d43a79fe3e1" createdAt="2022-02-11T03:47:00Z" updatedAt="2022-02-11T03:47:00Z" contentPermissions="ManagedByOwner">
+			<owner id="51f83a28-9789-4798-9c46-cefa9446024d"/>
+		</project>
+		<project id="ee7aa11d-3c59-4bf4-82f7-4250ecdf6a4e" name="Brian's Folder" description="reports built by Brian" parentProjectId="b9347fb9-7336-45cf-a5d1-ba1b8dc38e5d" createdAt="2022-03-02T06:20:02Z" updatedAt="2022-03-02T06:20:02Z" contentPermissions="ManagedByOwner">
+			<owner id="b34ba3c1-aa8a-4563-a0e7-b71a931bfdd6"/>
+		</project>
+		<project id="cb574fed-373c-4b55-b31d-0570f42fa77e" name="CM New" description="transactional data from m_sales_profit is used in all scan sales related reports." parentProjectId="4b3924b2-7eee-4eaa-acff-ccfee3f2ad29" createdAt="2022-03-11T00:53:07Z" updatedAt="2022-04-04T05:48:31Z" contentPermissions="ManagedByOwner">
+			<owner id="b34ba3c1-aa8a-4563-a0e7-b71a931bfdd6"/>
+		</project>
+		<project id="a748ec8b-5ff7-4dc0-902e-28b732c9a5e0" name="mspi based reports" description="pulling data from mspi solely." parentProjectId="f514ff24-8f00-431c-b4cf-f1f034df3aa9" createdAt="2022-04-04T05:53:22Z" updatedAt="2022-04-04T05:53:22Z" contentPermissions="ManagedByOwner">
+			<owner id="b34ba3c1-aa8a-4563-a0e7-b71a931bfdd6"/>
+		</project>
+		<project id="a2ac34f3-4339-4ed8-b131-b79e7ae64190" name="Supplier Reports for Email" description="Created by Neeraj for Validation only" parentProjectId="89e781e7-5c60-4ba0-a0b6-83aae84d404d" controllingPermissionsProjectId="89e781e7-5c60-4ba0-a0b6-83aae84d404d" createdAt="2022-05-07T12:38:00Z" updatedAt="2022-05-19T03:31:07Z" contentPermissions="LockedToProject">
+			<owner id="1dc4b977-ed03-4c98-abd3-2db3a6ac560c"/>
+		</project>
+		<project id="76ea132e-6b9e-483e-8301-dadb60378eac" name="Malin M Folder" description="reports custom built for Malin to use." parentProjectId="9290d274-acb3-41e7-8b94-0957626429c1" createdAt="2022-06-07T00:20:47Z" updatedAt="2022-06-07T00:20:47Z" contentPermissions="ManagedByOwner">
+			<owner id="b34ba3c1-aa8a-4563-a0e7-b71a931bfdd6"/>
+		</project>
+		<project id="8fdd93ed-c78f-447b-9b55-1eea9032c576" name="Brian's Folder" description="report/dashboard build by Brian" parentProjectId="b5e5bba4-1fa8-48e0-b414-db04d654a718" createdAt="2022-06-07T07:28:15Z" updatedAt="2022-06-07T07:28:15Z" contentPermissions="ManagedByOwner">
+			<owner id="b34ba3c1-aa8a-4563-a0e7-b71a931bfdd6"/>
+		</project>
+		<project id="92e13c60-0255-4e8c-a567-8d1c141318e6" name="Published Google Sheet" description="blended google sheet for reports" parentProjectId="f514ff24-8f00-431c-b4cf-f1f034df3aa9" createdAt="2022-08-03T07:00:49Z" updatedAt="2022-08-03T07:00:49Z" contentPermissions="ManagedByOwner">
+			<owner id="b34ba3c1-aa8a-4563-a0e7-b71a931bfdd6"/>
+		</project>
+		<project id="6c526e63-2cac-49bd-b440-3852cf611af7" name="Sabina Zadro" description="Sabina's Reports" parentProjectId="cb45572d-9a90-469f-b3c3-2d43a79fe3e1" createdAt="2022-08-16T02:20:59Z" updatedAt="2022-08-16T02:20:59Z" contentPermissions="ManagedByOwner">
+			<owner id="51f83a28-9789-4798-9c46-cefa9446024d"/>
+		</project>
+		<project id="48e90ee6-ed21-4f61-9fd7-36037f31c0e9" name="7. Sparro" description="Sparro Traffic Reports. Requested by Tristan 20/09/22" createdAt="2022-09-26T07:17:17Z" updatedAt="2022-09-26T07:18:57Z" contentPermissions="ManagedByOwner">
+			<owner id="51f83a28-9789-4798-9c46-cefa9446024d"/>
+		</project>
+		<project id="59d76cca-c8ea-4006-a30e-4909afb6b0c8" name="Nicole Hadley" description="" parentProjectId="cb45572d-9a90-469f-b3c3-2d43a79fe3e1" createdAt="2023-01-24T03:54:32Z" updatedAt="2023-01-24T03:54:32Z" contentPermissions="ManagedByOwner">
+			<owner id="042b37ba-c1be-4727-a844-2e787c89e3b6"/>
+		</project>
+		<project id="1bc66b49-432f-44f5-902e-85751058445f" name="G Galvin Folder" description="custom made report for Galvin" parentProjectId="9290d274-acb3-41e7-8b94-0957626429c1" createdAt="2023-02-10T03:18:58Z" updatedAt="2023-02-10T03:18:58Z" contentPermissions="ManagedByOwner">
+			<owner id="b34ba3c1-aa8a-4563-a0e7-b71a931bfdd6"/>
+		</project>
+		<project id="d43e6f6d-ab0b-4af9-9342-a533e7b99d2b" name="Commissions" description="Project to restrict access to commissions data" createdAt="2023-02-28T05:46:37Z" updatedAt="2023-02-28T05:46:37Z" contentPermissions="ManagedByOwner">
+			<owner id="12baf4c5-4009-4d60-899e-5f1997941c40"/>
+		</project>
+		<project id="ae6a853a-c2d7-4a17-8067-ac000c39e8b6" name="Vivien Nguyen" description="Vivien's Reports" parentProjectId="cb45572d-9a90-469f-b3c3-2d43a79fe3e1" createdAt="2023-05-07T22:10:10Z" updatedAt="2023-05-07T22:10:10Z" contentPermissions="ManagedByOwner">
+			<owner id="51f83a28-9789-4798-9c46-cefa9446024d"/>
+		</project>
+		<project id="bd6a1267-9273-4ca8-a437-536b3cc449a1" name="Laura Whitty" description="Laura Whitty's Reports" parentProjectId="cb45572d-9a90-469f-b3c3-2d43a79fe3e1" createdAt="2023-05-25T05:21:05Z" updatedAt="2023-05-25T05:21:05Z" contentPermissions="ManagedByOwner">
+			<owner id="51f83a28-9789-4798-9c46-cefa9446024d"/>
+		</project>
+		<project id="cb01556c-6c09-42c7-b3a1-15a130c19f66" name="Neeraj Khurana" description="" parentProjectId="cb45572d-9a90-469f-b3c3-2d43a79fe3e1" createdAt="2023-06-08T00:07:26Z" updatedAt="2023-06-08T00:07:26Z" contentPermissions="ManagedByOwner">
+			<owner id="1dc4b977-ed03-4c98-abd3-2db3a6ac560c"/>
+		</project>
+		<project id="8a27749c-0b7e-4c74-b3c4-6c4f7a2096c8" name="CM New July" description="" parentProjectId="4b3924b2-7eee-4eaa-acff-ccfee3f2ad29" createdAt="2023-07-13T09:01:11Z" updatedAt="2023-07-13T09:01:11Z" contentPermissions="ManagedByOwner">
+			<owner id="b34ba3c1-aa8a-4563-a0e7-b71a931bfdd6"/>
+		</project>
+		<project id="d0d45a58-3ab8-4f69-b8ac-aed8c01d2383" name="Anthony Yang Folder" description="" parentProjectId="9290d274-acb3-41e7-8b94-0957626429c1" createdAt="2023-09-12T06:24:21Z" updatedAt="2023-09-12T06:24:21Z" contentPermissions="ManagedByOwner">
+			<owner id="b34ba3c1-aa8a-4563-a0e7-b71a931bfdd6"/>
+		</project>
+		<project id="3e5e3860-8465-4a58-93ea-788d1b27fc51" name="Reports Removed from 3.Store Folder" description="" parentProjectId="9290d274-acb3-41e7-8b94-0957626429c1" createdAt="2023-09-13T23:52:28Z" updatedAt="2023-09-13T23:53:11Z" contentPermissions="ManagedByOwner">
+			<owner id="b34ba3c1-aa8a-4563-a0e7-b71a931bfdd6"/>
+		</project>
+		<project id="6799c34c-43a7-4a70-881f-d4d9aabd64a8" name="Custom Report Folder for Shaun Cluster" description="" parentProjectId="9290d274-acb3-41e7-8b94-0957626429c1" createdAt="2023-09-26T01:45:40Z" updatedAt="2023-09-26T01:45:40Z" contentPermissions="ManagedByOwner">
+			<owner id="b34ba3c1-aa8a-4563-a0e7-b71a931bfdd6"/>
+		</project>
+		<project id="50453ef6-6841-4682-945e-7d1a5f89dc01" name="System" description="This folder has reports that we use to integrate Binglee Internal Systems." createdAt="2023-10-20T02:20:15Z" updatedAt="2023-10-20T02:20:15Z" contentPermissions="ManagedByOwner">
+			<owner id="1dc4b977-ed03-4c98-abd3-2db3a6ac560c"/>
+		</project>
+		<project id="4e33ea5a-321b-4629-a117-5e92f9daedc2" name="Isabel Young Perez" description="" parentProjectId="cb45572d-9a90-469f-b3c3-2d43a79fe3e1" createdAt="2023-12-04T00:14:09Z" updatedAt="2023-12-04T00:22:54Z" contentPermissions="ManagedByOwner">
+			<owner id="51f83a28-9789-4798-9c46-cefa9446024d"/>
+		</project>
+		<project id="ec8c7952-faa3-4373-8148-b37b9877840a" name="Data Dive" description="" parentProjectId="cb45572d-9a90-469f-b3c3-2d43a79fe3e1" createdAt="2023-12-05T05:55:38Z" updatedAt="2023-12-05T05:55:38Z" contentPermissions="ManagedByOwner">
+			<owner id="51f83a28-9789-4798-9c46-cefa9446024d"/>
+		</project>
+	</projects>
+</tsResponse>
