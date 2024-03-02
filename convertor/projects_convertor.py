@@ -1,8 +1,10 @@
 '''
-Projects Convertor Module docstring.
+    Projects Convertor Module docstring.
 '''
+
 import xml.etree.ElementTree as Xet
-from project import Project
+from .project import Project
+
 
 def extract_projects_from_xml():
     xml_parse = Xet.parse('assets/projects.xml')
@@ -27,11 +29,12 @@ def map_project_tags_to_dict(projects_xml_tags):
 
 
 def check_key_in_dict(key, dictionary) -> bool:
+    result = True
     try:
         dictionary[key]
-    except KeyError as key_error:
-        return False
-    return True
+    except KeyError:
+        result = False
+    return result
 
 
 def add_project_with_parent(project_id, items, projects_dict, projects_as_structured_tree_nodes):
@@ -76,3 +79,12 @@ def create_project_tree_nodes_list(projects_dict):
                 )
             
     return projects_as_structured_tree_nodes
+
+
+# __all__ = [
+#     'extract_projects_from_xml',
+#     'map_project_tags_to_dict',
+#     'check_key_in_dict',
+#     'add_project_with_parent',
+#     'create_project_tree_nodes_list'
+# ]
