@@ -3,7 +3,7 @@
 '''
 
 import xml.etree.ElementTree as Xet
-from .project import Project
+from convertor.project import Project
 
 
 def extract_projects_from_xml():
@@ -54,11 +54,10 @@ def add_project_with_parent(project_id, items, projects_dict, projects_as_struct
         projects_as_structured_tree_nodes[project_id] = project
 
         return
-    
     add_project_with_parent(
             parent_id, parent_items, projects_dict,
             projects_as_structured_tree_nodes
-            )
+        )
 
 
 def create_project_tree_nodes_list(projects_dict):
@@ -77,7 +76,6 @@ def create_project_tree_nodes_list(projects_dict):
                 project_id, project_items, projects_dict,
                 projects_as_structured_tree_nodes
                 )
-            
     return projects_as_structured_tree_nodes
 
 

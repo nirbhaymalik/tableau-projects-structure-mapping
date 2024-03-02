@@ -30,7 +30,8 @@ class Project:
             Returns path of the project.
             
             Returns:
-                    self.path (list[str]): List of project names representing a nested file structure.
+                    self.path (list[str]):  List of project names representing 
+                                            a nested file structure.
         '''
         return self.path
 
