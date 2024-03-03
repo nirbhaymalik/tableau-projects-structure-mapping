@@ -5,7 +5,10 @@
 
 import convertor
 
-if __name__ == '__main__':
+def main():
+    '''
+        Top level main function to convert the projects.
+    '''
     projects_xml_tags = convertor.extract_projects_from_xml()
     print(len(projects_xml_tags))
     projects_dict = convertor.map_project_tags_to_dict(projects_xml_tags)
@@ -15,3 +18,6 @@ if __name__ == '__main__':
 
     for project in projects_structure_tree.values():
         print(project)
+
+if __name__ == '__main__':
+    main()
