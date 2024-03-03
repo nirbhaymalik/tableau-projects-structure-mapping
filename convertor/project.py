@@ -35,7 +35,7 @@ class Project:
         '''
         return self.path
 
-    def set_path(self, path_to_append):
+    def add_to_path(self, path_to_append):
         '''
             Sets new path of the project by appending its parent's path details.
             
@@ -53,7 +53,7 @@ class Project:
                     parent_project (Project): class object representing parent project.
         '''
         self.parent_project = parent_project
-        self.set_path(parent_project.get_path())
+        self.add_to_path(parent_project.get_path())
 
     def __str__(self):
         '''
