@@ -8,7 +8,7 @@
             "name": "Python: generate_projects_csv",
             "type": "debugpy",
             "request": "launch",
-            "program": "src/generate_projects_csv.py",
+            "program": "main.py",
             "console": "integratedTerminal"
         }
     ]
