@@ -41,12 +41,12 @@ Use the requirements.txt file to refer to the packages this project depends on.
 
 ### Execute main file
 Make sure to run this command on root directory.
-`python main.py`
+`make local`
 
 ### Check tests coverage
 Make sure to run this command on root directory.
-`coverage run --source=. -m pytest -v && coverage report`
+`make check-coverage`
 
 ### Run tests
 Make sure to run this command on root directory.
-`pytest -v`
+`make test`
