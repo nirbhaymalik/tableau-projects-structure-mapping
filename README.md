@@ -9,8 +9,7 @@ This project parses an XML file to retrive Tableau's Projects information and cr
 
 Steps:
 1. Install Python and create a virtual env: `make install`
-    > [!NOTE]
-    > _This command is dependent on [**pyenv**](https://github.com/pyenv/pyenv#installation) python manager._
+    - _This command is dependent on [**pyenv**](https://github.com/pyenv/pyenv#installation) python manager._
 2. Confirm that your current directory's python version is correct: `python --version`
 3. Start venv terminal: `source .venv/bin/activate`
 4. Install python dependencies for the project: `make install-deps`
