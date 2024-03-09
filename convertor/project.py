@@ -33,7 +33,7 @@ class Project:
                     self.path (list[str]):  List of project names representing 
                                             a nested file structure.
         '''
-        return self.path
+        return [self.name]
 
     def add_to_path(self, path_to_append):
         '''
