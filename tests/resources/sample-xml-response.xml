@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<tsResponse xmlns="http://tableau.com/api" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://tableau.com/api https://help.tableau.com/samples/en-us/rest_api/ts-api_3_17.xsd">
+	<pagination pageNumber="1" pageSize="100" totalAvailable="84"/>
+	<projects>
+		<project id="dd290932-cd1a-11e8-b0b0-1f0ed16bcc61" name="Default" description="The default project that was automatically created by Tableau." createdAt="2018-10-11T05:59:33Z" updatedAt="2019-05-29T03:38:54Z" contentPermissions="ManagedByOwner">
+			<owner id="12baf4c5-4009-4d60-899e-5f1997941c40"/>
+		</project>
+		<project id="315b24e3-3f75-4f45-b6ad-903dec5062f9" name="Tableau Samples" description="A set of sample workbooks provided by Tableau Software." createdAt="2018-10-11T06:16:40Z" updatedAt="2019-05-29T03:38:54Z" contentPermissions="ManagedByOwner">
+			<owner id="12baf4c5-4009-4d60-899e-5f1997941c40"/>
+		</project>
+    </projects>
+</tsResponse>

@@ -9,7 +9,7 @@ def main():
     '''
         Top level main function to convert the projects.
     '''
-    projects_xml_tags = convertor.extract_projects_from_xml()
+    projects_xml_tags = convertor.extract_projects_from_xml('assets/projects.xml')
     print(len(projects_xml_tags))
     projects_dict = convertor.map_project_tags_to_dict(projects_xml_tags)
     print(len(projects_dict))

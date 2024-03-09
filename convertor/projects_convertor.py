@@ -7,14 +7,14 @@ import xml.etree.ElementTree as Xet
 from convertor.project import Project
 
 
-def extract_projects_from_xml() -> list:
+def extract_projects_from_xml(file_path) -> list:
     '''
         Method to parse XML file and store return XML tags as an object.
 
         Returns:
             projects (list): List of XML tags.
     '''
-    xml_parse = Xet.parse('assets/projects.xml')
+    xml_parse = Xet.parse(file_path)
 
     projects = xml_parse.getroot()[1]
 
