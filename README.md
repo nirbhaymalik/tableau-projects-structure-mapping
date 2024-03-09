@@ -3,7 +3,7 @@ This project parses an XML file to retrive Tableau's Projects information and cr
 
 ## 1. Project Setup
 
-### 1.1 Install Python and Dependencies for project
+### 1.1. Install Python and Dependencies for project
 > [!TIP]
 > Follow the guide available on [Installing Python](https://testdriven.io/blog/python-environments/).
 
@@ -18,12 +18,14 @@ Steps:
 _You can deactivate a venv by running `deactivate` in venv terminal when not running the code._
 
 
+### 1.2. Update dependencies for future use
 > [!IMPORTANT]
-### 1.2 Update dependencies for future use
-#### _1.2.1 Code Execution Dependencies_
+> It is important to update deps to keep code setup consistent for all developers.
+
+#### _1.2.1. Code Execution Dependencies_
 If your new changes in the code requires a change in dependencies then update the requirements.txt file by executing the command: `make update-deps`
 
-#### _1.2.2 Development Dependencies_
+#### _1.2.2. Development Dependencies_
 If you have made any development related changes for example making use of Pylint, PyLance or coverage modules then add your package name and its version to `dev-requirements.txt` file.
 
 
