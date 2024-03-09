@@ -6,6 +6,7 @@ install-python:
 
 install-deps:
 	pip install -r requirements.txt
+	pip install -r dev-requirements.txt
 
 create-venv:
 	python -m venv .venv
@@ -15,10 +16,13 @@ install:
 	make create-venv
 
 update-deps:
-	pip freeze > requirements.txt
+	pigar generate
 
 local:
 	python main.py
+
+lint:
+	pylint **/*.py
 
 test:
 	pytest -v

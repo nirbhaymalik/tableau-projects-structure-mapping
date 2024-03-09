@@ -11,14 +11,16 @@ jobs:
         with:
           cache: 'pip'
 
-      - name: Install dependencies
+      - name: Install Dev dependencies
         run:
-          pip install -r requirements.txt
+          pip install -r dev-requirements.txt
+
+      - name: Analysing the code with pylint
+        run:
+          make lint
 
       - name: Test Project
         run:
           make test
 
-      - name: Analysing the code with pylint
-        run:
-          pylint $(git ls-files '*.py')
+      
