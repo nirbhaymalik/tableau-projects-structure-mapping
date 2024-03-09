@@ -8,9 +8,7 @@
 Steps:
 1. `pyenv install | cat .python-version`
 2. `pyenv local | cat .python-version`
-3. Confirm that your current directory's python version is correct:
-
-`python --version`
+3. Confirm that your current directory's python version is correct: `python --version`
 
 
 ### Create Python Virtual environment
@@ -43,15 +41,12 @@ Use the requirements.txt file to refer to the packages this project depends on.
 
 ### Execute main file
 Make sure to run this command on root directory.
-
 `python main.py`
 
 ### Check tests coverage
 Make sure to run this command on root directory.
-
 `coverage run --source=. -m pytest -v && coverage report`
 
 ### Run tests
 Make sure to run this command on root directory.
-
 `pytest -v`
