@@ -22,7 +22,7 @@ local:
 	python main.py
 
 lint:
-	pylint **/*.py
+	pylint main.py tests convertor -v
 
 test:
 	pytest -v
