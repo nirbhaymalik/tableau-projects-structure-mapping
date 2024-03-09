@@ -1,52 +1,30 @@
 # tableau-projects-structure-mapping
+This project parses an XML file to retrive Tableau's Projects information and creates an output CSV file containing a list of Project names with their directory structure from the respective Parent Project.
 
 ## Project Setup
 
-### Install Python Environment manager
+### Install Python and Dependencies for project
 > Follow the guide available on [Installing Python](https://testdriven.io/blog/python-environments/).
 
 Steps:
-1. `pyenv install | cat .python-version`
-2. `pyenv local | cat .python-version`
-3. Confirm that your current directory's python version is correct: `python --version`
+1. `make install` - this command is dependent on [**pyenv**](https://github.com/pyenv/pyenv#installation) python manager.
+2. Confirm that your current directory's python version is correct: `python --version`
+3. Start venv terminal: `source .venv/bin/activate`
+4. Install python dependencies for the project: `make install-deps`
+
+_You can deactivate a venv by running `deactivate` in venv terminal when not running the code._
 
 
-### Create Python Virtual environment
-> _Skip this step if you already have created a venv for this project before._
+### Update dependencies for future use
+If your new changes in the code requires a change in dependencies then update the requirements.txt file by executing the below command.
 
-Make sure to perform above steps and confirm your python version before creating venv.
-
-`python -m venv .venv`
-
-### Set venv
-> _Skip this step if you just created a new venv in previous step as it automatically starts using the venv on creation._
-
-To keep your global packages clean, setup a venv in the project and use that for the project.
-
-`source .venv/bin/activate`
-
-You can also deactivate a venv by running `deactivate` in venv terminal.
-
-
-### Install dependencies in venv
-Use the requirements.txt file to refer to the packages this project depends on.
-
-`pip install -r requirements.txt`
-
-> If your new changes in the code requires a change in dependencies then update the requirements.txt file using the following command:
-
-`pip freeze > requirements.txt`
+`make update-deps`
 
 ## General Development Commands
-
-### Execute main file
-Make sure to run this command on root directory.
-`make local`
-
-### Check tests coverage
-Make sure to run this command on root directory.
-`make check-coverage`
-
-### Run tests
-Make sure to run this command on root directory.
-`make test`
+- Use virutal enviornment: 
+    - `source .venv/bin/activate`
+    - You can deactivate a venv by running `deactivate` in venv terminal.
+> Make sure to run all `make` commands in root directory using venv.
+- Execute main file: `make local`
+- Check tests coverage: `make check-coverage`
+- Run tests: `make test`
