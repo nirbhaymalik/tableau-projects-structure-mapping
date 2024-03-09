@@ -9,6 +9,7 @@ Steps:
 1. `pyenv install | cat .python-version`
 2. `pyenv local | cat .python-version`
 3. Confirm that your current directory's python version is correct:
+
 `python --version`
 
 
@@ -16,12 +17,14 @@ Steps:
 > _Skip this step if you already have created a venv for this project before._
 
 Make sure to perform above steps and confirm your python version before creating venv.
+
 `python -m venv .venv`
 
 ### Set venv
 > _Skip this step if you just created a new venv in previous step as it automatically starts using the venv on creation._
 
 To keep your global packages clean, setup a venv in the project and use that for the project.
+
 `source .venv/bin/activate`
 
 You can also deactivate a venv by running `deactivate` in venv terminal.
@@ -40,12 +43,15 @@ Use the requirements.txt file to refer to the packages this project depends on.
 
 ### Execute main file
 Make sure to run this command on root directory.
+
 `python main.py`
 
 ### Check tests coverage
 Make sure to run this command on root directory.
+
 `coverage run --source=. -m pytest -v && coverage report`
 
 ### Run tests
 Make sure to run this command on root directory.
+
 `pytest -v`
