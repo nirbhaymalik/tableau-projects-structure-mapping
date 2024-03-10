@@ -11,9 +11,9 @@ jobs:
         with:
           cache: 'pip'
 
-      - name: Install Dev dependencies
+      - name: Install Dependencies
         run:
-          pip install -r dev-requirements.txt
+          make install-deps
 
       - name: Analysing the code with pylint
         run:
