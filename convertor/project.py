@@ -51,7 +51,7 @@ class Project:
         Returns:
             None
         """
-        self.path = self.path + path_to_append
+        self.path = path_to_append + self.path
 
     def set_parent(self, parent_project) -> None:
         """
@@ -67,6 +67,12 @@ class Project:
         self.parent_project = parent_project
         self.add_to_path(parent_project.get_path())
 
+    def get_path_str(self) -> dict:
+        """
+        need to add
+        """
+        return " > ".join(self.path)
+
     def __str__(self) -> str:
         """
         Overridden custom str method to print project details.
@@ -74,4 +80,4 @@ class Project:
         Returns:
             str: string representing path of the said project.
         """
-        return {self.name: self.path}.__str__()
+        return str({self.name: self.get_path_str()})

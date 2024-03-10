@@ -31,7 +31,7 @@ def test_add_to_path():
     """
     project_name = "test_name"
     path_to_add = ["something", "extra"]
-    expected_path = [project_name] + path_to_add
+    expected_path = path_to_add + [project_name]
 
     project = Project(project_name)
     project.add_to_path(path_to_add)
@@ -47,7 +47,7 @@ def test_set_parent():
     project = Project("test_project")
     project.set_parent(parent_project)
 
-    assert (project.get_path()) == ["test_project", "test_parent_project"]
+    assert (project.get_path()) == ["test_parent_project", "test_project"]
 
 
 def test_str_method():
@@ -56,4 +56,4 @@ def test_str_method():
     """
     project = Project("test_name")
 
-    assert (str(project)) == str({"test_name": ["test_name"]})
+    assert (str(project)) == str({"test_name": "test_name"})

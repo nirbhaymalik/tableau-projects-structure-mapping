@@ -20,12 +20,14 @@ def test_create_project_tree_nodes_list():
     projects_tree = ps.create_project_tree_nodes_list(projects_dict)
     actual = [str(project) for project in projects_tree.values()]
 
+    print(actual)
+
     expected = [
-        "{'Chris Murphy': ['Chris Murphy', '2. Head Office User Reports']}",
-        "{'Reports Seldom Used': ['Reports Seldom Used',"  # long line split into two
-        + " 'Chris Murphy', '2. Head Office User Reports']}",
-        "{'2. Head Office User Reports': ['2. Head Office User Reports']}",
-        "{'CM New': ['CM New', 'Chris Murphy', '2. Head Office User Reports']}",
+        "{'Chris Murphy': '2. Head Office User Reports > Chris Murphy'}",
+        "{'Reports Seldom Used': '2. Head Office User Reports "  # long string split in two lines
+        + "> Chris Murphy > Reports Seldom Used'}",
+        "{'2. Head Office User Reports': '2. Head Office User Reports'}",
+        "{'CM New': '2. Head Office User Reports > Chris Murphy > CM New'}",
     ]
 
     assert Counter(actual) == Counter(expected)
