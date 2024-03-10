@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<tsResponse xmlns="http://tableau.com/api" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://tableau.com/api https://help.tableau.com/samples/en-us/rest_api/ts-api_3_17.xsd">
+	<pagination pageNumber="1" pageSize="100" totalAvailable="84"/>
+	<projects>
+		<project id="4b3924b2-7eee-4eaa-acff-ccfee3f2ad29" name="Chris Murphy" description="*Chris Murphy's Reports*" parentProjectId="cb45572d-9a90-469f-b3c3-2d43a79fe3e1" createdAt="2019-11-13T06:02:25Z" updatedAt="2019-11-13T06:02:25Z" contentPermissions="ManagedByOwner">
+			<owner id="51f83a28-9789-4798-9c46-cefa9446024d"/>
+		</project>
+		<project id="047bae70-fd36-4921-85d2-9a902fa4c76b" name="Reports Seldom Used" description="" parentProjectId="4b3924b2-7eee-4eaa-acff-ccfee3f2ad29" createdAt="2021-08-12T05:49:20Z" updatedAt="2021-08-12T05:49:20Z" contentPermissions="ManagedByOwner">
+			<owner id="b34ba3c1-aa8a-4563-a0e7-b71a931bfdd6"/>
+		</project>
+		<project id="cb45572d-9a90-469f-b3c3-2d43a79fe3e1" name="2. Head Office User Reports" description="" createdAt="2019-05-17T00:18:55Z" updatedAt="2020-08-25T05:25:28Z" contentPermissions="ManagedByOwner">
+			<owner id="12baf4c5-4009-4d60-899e-5f1997941c40"/>
+		</project>
+		<project id="cb574fed-373c-4b55-b31d-0570f42fa77e" name="CM New" description="transactional data from m_sales_profit is used in all scan sales related reports." parentProjectId="4b3924b2-7eee-4eaa-acff-ccfee3f2ad29" createdAt="2022-03-11T00:53:07Z" updatedAt="2022-04-04T05:48:31Z" contentPermissions="ManagedByOwner">
+			<owner id="b34ba3c1-aa8a-4563-a0e7-b71a931bfdd6"/>
+		</project>
+    </projects>
+</tsResponse>

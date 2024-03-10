@@ -39,10 +39,10 @@ def map_project_tags_to_dict(projects_xml_tags) -> dict:
     projects_dict = {}
 
     for project in projects_xml_tags:
-        row_data = {}
+        row_data = {"name": project.attrib["name"]}
 
-        for item in project.items():
-            row_data[item[0]] = item[1]
+        if "parentProjectId" in project.attrib:
+            row_data["parentProjectId"] = project.attrib["parentProjectId"]
 
         projects_dict[project.attrib["id"]] = row_data
 
