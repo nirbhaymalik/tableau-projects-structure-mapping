@@ -49,25 +49,6 @@ def map_project_tags_to_dict(projects_xml_tags) -> dict:
     return projects_dict
 
 
-def check_key_in_dict(key, dictionary) -> bool:
-    """
-    Method to check if a key exists in given dict.
-
-    Parameters:
-        key (str): Key value to check.
-        dictionary (dict): Dictionary to review for finding the asked Key.
-
-    Returns:
-        result (bool):  True - If key exists in the dict
-                        False - If key does not exists in the dict.
-    """
-    try:
-        dictionary[key]
-    except KeyError:
-        return False
-    return True
-
-
 def add_project_with_parent(
     project_id, items, projects_dict, projects_as_structured_tree_nodes
 ) -> None:
@@ -89,22 +70,25 @@ def add_project_with_parent(
     parent_id = items["parentProjectId"]
     parent_items = projects_dict[parent_id]
 
-    if not check_key_in_dict("parentProjectId", parent_items):
-        project = Project(items["name"])
+    project = Project(items["name"])
 
-        if projects_as_structured_tree_nodes[parent_id] is None:
-            parent_project = Project(parent_items["name"])
-            projects_as_structured_tree_nodes[parent_id] = parent_project
-        else:
-            parent_project = projects_as_structured_tree_nodes[parent_id]
-
+    if parent_id in projects_as_structured_tree_nodes:
+        parent_project = projects_as_structured_tree_nodes[parent_id]
         project.set_parent(parent_project)
         projects_as_structured_tree_nodes[project_id] = project
-
-        return
-    add_project_with_parent(
-        parent_id, parent_items, projects_dict, projects_as_structured_tree_nodes
-    )
+    else:
+        if "parentProjectId" not in parent_items:
+            parent_project = Project(parent_items["name"])
+            projects_as_structured_tree_nodes[parent_id] = parent_project
+            project.set_parent(parent_project)
+            projects_as_structured_tree_nodes[project_id] = project
+        else:
+            add_project_with_parent(
+                parent_id,
+                parent_items,
+                projects_dict,
+                projects_as_structured_tree_nodes,
+            )
 
 
 def create_project_tree_nodes_list(projects_dict) -> dict:
@@ -126,11 +110,11 @@ def create_project_tree_nodes_list(projects_dict) -> dict:
     projects_as_structured_tree_nodes = {}
 
     for project_id in projects_dict:
-        if check_key_in_dict(project_id, projects_as_structured_tree_nodes):
+        if project_id in projects_as_structured_tree_nodes:
             continue
 
         project_items = projects_dict[project_id]
-        if not check_key_in_dict("parentProjectId", project_items):
+        if "parentProjectId" not in project_items:
             project_node = Project(project_items["name"])
             projects_as_structured_tree_nodes[project_id] = project_node
         else:
