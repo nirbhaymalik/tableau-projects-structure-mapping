@@ -25,7 +25,7 @@ lint:
 	pylint main.py tests convertor -v
 
 test:
-	pytest -v
+	pytest -vs
 
 check-coverage:
 	coverage run --source=./ -m pytest -v && coverage report
