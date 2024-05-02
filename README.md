@@ -1,6 +1,8 @@
 # tableau-projects-structure-mapping
 This project parses an XML file to retrive Tableau's Projects information and creates an output CSV file containing a list of Project names with their directory structure from the respective Parent Project.
 
+to read - https://docs.python.org/3/library/dataclasses.html
+
 ## 1. Project Setup
 
 ### 1.1. Install Python and Dependencies for project
